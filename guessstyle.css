@@ -1,0 +1,164 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.game-container {
+    text-align: center;
+    background-color: #Fff;
+    padding: 10px;
+}
+
+.heading {
+    color: #F0FFF0;
+    font: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+    font-style: normal;
+
+}
+
+.phrase {
+    color: #FFA500;
+    font-family: roboto;
+    font-style: italic;
+    margin: 5px;
+    letter-spacing: 1px;
+    margin: 5px;
+    padding: 5px;
+    /* font-weight: 500; */
+}
+
+.header {
+    background-color: #003300;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 30px;
+}
+
+.player-name,
+.comp-name,
+.text,
+.player-guess,
+.comp-guess {
+    margin: 10px;
+    color: #003300;
+    font-size: larger;
+    /* font-style: italic; */
+    /* font-weight: 800; */
+}
+
+.comp-score,
+.player-score {
+    color: #Fff;
+    /* font-weight: 900;
+    font-size: larger; */
+}
+
+.text-input {
+    padding: 10px;
+    background-color: #FFFBF5;
+    border-radius: 5px;
+    border-color: #000;
+    height: 60px;
+    width: 400px;
+}
+
+
+.again-btn {
+    background-color: #000;
+    border: #099;
+    color: #fff;
+
+}
+
+
+.guess-btn {
+    padding: 5px;
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 5px;
+    border: 1px solid #aaa;
+    background-color: #3b5998;
+    color: #fff;
+    margin: 10px;
+    /* font-weight: 700; */
+}
+
+.guess-btn:hover {
+    background-color: #FFA500;
+}
+
+.guess-board {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 10px;
+}
+
+.final {
+    margin: 10px;
+    /* font-weight: 600; */
+    font-size: x-large;
+    margin: 20px;
+}
+
+.player-number,
+.comp-number {
+    color: #003300;
+    font-size: larger;
+    /* font-weight: 600; */
+
+}
+
+.player-guess,
+.comp-guess {
+    color: #FFA500;
+}
+
+.final-say {
+    margin: auto;
+    width: 60%;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #000;
+    background-color: #099;
+}
+
+.error-final-say {
+    margin: auto;
+    width: 60%;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #000;
+    background-color: red;
+}
+
+.info-btn {
+    padding: 5px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 5px;
+    /* border: none;
+    background-color: #00FF00; */
+    color: #3b5998;
+    margin: 5px;
+    /* font-weight: 700; */
+}
+
+.count {
+    color: #000;
+
+}
